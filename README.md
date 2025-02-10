@@ -4,7 +4,7 @@
 </div>
 
 ## Snapshot 📸
-![Portfolio Landing Page](https://ibb.co/zV4ctpY5)
+![Portfolio Landing Page]([https://ibb.co/zV4ctpY5](https://ibb.co/zV4ctpY5))
 
 
 ## Tech Stack ✨
