@@ -1,9 +1,14 @@
+
 <div align="center">
 	<h1> My Portfolio </h1>
 </div>
 
 ## Snapshot 📸
+<<<<<<< HEAD
 ![Portfolio Landing Page](https://ibb.co/zV4ctpY5)
+=======
+![Portfolio Landing Page]([https://ibb.co/zV4ctpY5](https://ibb.co/zV4ctpY5))
+>>>>>>> 370d6cc99e82348426a1ec5de7a5f52c265aba12
 
 
 ## Tech Stack ✨
