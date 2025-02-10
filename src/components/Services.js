@@ -29,7 +29,7 @@ const Services = () => {
                     </div>
                     <div className="services-card">
                         <IoColorWandOutline className='services-icon' />
-                        <p className='services-title'>UI Design</p>
+                        <p className='services-title'>UI/UX Design</p>
                         <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
                     </div>
                 </motion.div>

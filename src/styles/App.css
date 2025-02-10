@@ -50,7 +50,7 @@ body {
 	--soft-white: #ccd6f6;
 	--navy: #0a192f;
 	--light-blue: rgb(156, 183, 255);
-	--section-bgd: #00021a;
+	--section-bgd: linear-gradient(rgb(13, 13, 39),rgba(37, 16, 54, 1), rgba(52, 38, 90, 1), rgba(54, 16, 45, 1),rgb(13, 13, 43));
 }
 
 /* General styles */

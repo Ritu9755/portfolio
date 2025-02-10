@@ -1,10 +1,10 @@
 import React from "react";
 import "../../styles/Navbar.css";
-import { FaHome, FaLaptop } from "react-icons/fa";
+import { FaHome, FaLaptop, FaProjectDiagram } from "react-icons/fa";
 import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";
 import { FiUser } from "react-icons/fi";
 import { Link } from "react-scroll";
-import ProfileImg from "../../images/profile_me.jpg";
+import ProfileImg from "../../images/profile_me.jpeg";
 import NavLinks from "./NavLinks";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
@@ -56,7 +56,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Peace Jinadu-Paul
+							Dev Ritu Sawant
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>
@@ -124,6 +124,19 @@ const Navbar = ({ nav, handleNav }) => {
 							<BiBookContent className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
 								Works
+							</li>
+						</Link>
+						<Link
+							activeClass='active'
+							spy={true}
+							smooth={true}
+							offset={0}
+							duration={500}
+							to='projects'
+							className='mid-links'>
+							<FaProjectDiagram className='mid-icon' />
+							<li className='mid-link' onClick={handleNav}>
+								Projects
 							</li>
 						</Link>
 						<Link

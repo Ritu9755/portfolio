@@ -5,20 +5,20 @@ import {
 	FaGithub,
 	FaHtml5,
 	FaReact,
-	FaSass
 } from "react-icons/fa";
 import { RiVuejsLine } from "react-icons/ri";
 import {
 	SiAdobephotoshop,
+	SiExpress,
 	SiFirebase,
 	SiFramer,
-	SiNextdotjs,
-	SiRedux,
+	SiMongodb,
+	SiNodedotjs,
+	SiPostman,
 	SiStyledcomponents,
 	SiTailwindcss,
 	SiTypescript
 } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
 
 export const SkillsData = [
 	{
@@ -42,21 +42,23 @@ export const SkillsData = [
 		icon: <FaReact />,
 	},
 	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
-	},
+		name: "Node Js",
+		icon: <SiNodedotjs />,
+	  },
+	  
 	{
 		name: "Vue Js",
 		icon: <RiVuejsLine />, 
 	},
 	{
-		name: "React Native",
-		icon: <TbBrandReactNative />,
+		name: "MongoDB",
+		icon: <SiMongodb />,
 	},
 	{
-		name: "Redux",
-		icon: <SiRedux />,
-	},
+		name: "Express",
+		icon: <SiExpress />,
+	  }
+	  ,
 	{
 		name: "Firebase",
 		icon: <SiFirebase />,
@@ -66,9 +68,10 @@ export const SkillsData = [
 		icon: <SiTailwindcss />,
 	},
 	{
-		name: "Sass",
-		icon: <FaSass />,
-	},
+		name: "Postman",
+		icon: <SiPostman />,
+	  }
+	  ,
 	{
 		name: "Styled Components",
 		icon: <SiStyledcomponents />,

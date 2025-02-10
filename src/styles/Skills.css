@@ -9,7 +9,6 @@
     padding: 1rem;
     width: 80%;
     margin: 0 auto;
-    /* border: 1px solid var(--nav-blue); */
     color: var(--nav-blue);
     cursor: pointer;
     border-radius: 5px;
@@ -23,6 +22,12 @@
 .skill-icon {
     font-size: 2rem;
     margin-bottom: .5rem;
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.skill-icon:hover {
+    transform: scale(1.9); /* Enlarge the icon */
+    color: #ec4899; /* Correct color syntax */
 }
 
 .skill-desc {
@@ -41,8 +46,9 @@
 @media screen and (max-width: 768px) {
     .skills-box {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Changed to 2 columns for better fit */
     }
+    
     .skill-icon {
         font-size: 2rem;
         margin-bottom: .5rem;
@@ -51,7 +57,6 @@
     .skill-desc {
         font-size: 1rem;
         letter-spacing: 1px;
-        font-size: 1rem;
     }
 }
 

@@ -5,6 +5,7 @@ import HeroSection from './HeroSection';
 import Services from './Services';
 import Skills from './Skills';
 import Works from './Works';
+import Projects from './Projects';
 
 const Main = ({nav, handleNav, closeNav}) => {
   return(
@@ -14,6 +15,7 @@ const Main = ({nav, handleNav, closeNav}) => {
         <Skills />
         <Services />
         <Works />
+        <Projects/>
         <Contact />
     </div>
   )

@@ -1,0 +1,110 @@
+.projects-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap; /* Added to ensure responsiveness */
+}
+
+.project-experience {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+/* Align the text for each project */
+.project-experience:nth-child(1) {
+    text-align: left; /* Align the first card to the left */
+}
+
+.project-experience:nth-child(2) {
+    text-align: center; /* Align the second card to the center */
+}
+
+.project-experience:nth-child(3) {
+    text-align: right; /* Align the third card to the right */
+}
+
+.project-experience:hover {
+    box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+    border: none;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center title and description */
+    text-align: center; /* Ensures text is centered */
+}
+
+.project-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.project-info .dates {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Image styling */
+.project-experience img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .project-experience {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .projects-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem; /* Increased gap for better spacing */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project-info h1 {
+        font-size: 2rem; /* Increased font size for the project title */
+        margin-bottom: 10px;
+    }
+    
+    .project-info .dates {
+        font-size: 1.2rem; /* Increased font size for the dates */
+        margin-bottom: 10px;
+        color: gray;
+    }
+    
+    .project-info p {
+        font-size: 1.5rem; /* Increased font size for the description */
+        color: #ffffff;
+        line-height: 1.5;
+    }
+    
+}

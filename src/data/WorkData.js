@@ -1,4 +1,4 @@
-export const ReactData = [
+/*export const ReactData = [
 	{
 		title: "Cerebrio",
 		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
@@ -104,4 +104,4 @@ export const ReactNativeData = [
 		gitlink: "//github.com/Pappyjay23/Serenify",
 		app: "//drive.google.com/uc?export=download&id=1WGhO4zmFH6C05_PY9C5CYYEUVNCNVRHJ",
 	},
-];
+];*/

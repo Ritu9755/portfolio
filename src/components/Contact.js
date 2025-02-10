@@ -102,16 +102,16 @@ const Contact = () => {
 								<p>Say Hello</p>
 								<Link
 									className='hello-links'
-									to='//wa.me/+2348060860565'
+									to='//wa.me/qr/NRNNWGODG73TH1'
 									target='_blank'>
-									wa.me/pappyjay23
+									wa.me/Ritu
 								</Link>
 								<a
 									className='hello-links'
-									href='mailto:pjinadu02@gmail.com'
+									href='mailto:ritusawant363@gmail.com'
 									target='_blank'
 									rel='noreferrer'>
-									pjinadu02@gmail.com
+									ritusawant363@gmail.com
 								</a>
 							</div>
 						</motion.div>
