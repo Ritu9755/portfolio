@@ -105,7 +105,7 @@ const HeroSection = ({ nav, handleNav }) => {
 			initial='hidden'
 			whileInView='visible'>
 			<a 
-				href="https://drive.google.com/file/d/1Q0A2a4xB-4jp-vHCxcV7S7C9KdUcVcQC/view?usp=sharing" 
+				href=https://drive.google.com/file/d/1Q0A2a4xB-4jp-vHCxcV7S7C9KdUcVcQC/view?usp=drivesdk 
 				target="_blank" 
 				className='hero-contact' 
 				rel="noopener noreferrer">
