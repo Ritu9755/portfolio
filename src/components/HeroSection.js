@@ -106,7 +106,7 @@ const HeroSection = ({ nav, handleNav }) => {
 				  whileInView="visible"
 				>
 				  <a 
-				    href="https://drive.google.com/file/d/1NtrV-cU_zl5lRpCzEpcbHfdFx_wFMTzI/view?usp=drive_link" 
+				    href="https://drive.google.com/file/d/1NtrV-cU_zl5lRpCzEpcbHfdFx_wFMTzI/view?usp=sharing" 
 				    target="_blank" 
 				    className="hero-contact" 
 				    rel="noopener noreferrer"
